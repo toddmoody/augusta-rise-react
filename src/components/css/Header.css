@@ -1,0 +1,39 @@
+.hero-header {
+    background-image: url('../../assets/header-bg.jpg');
+    background-size: cover;
+    background-position: center;
+    width: 100wh;
+    height: 100vh;
+    display: flex;
+  }
+  
+  .centre-content {
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+  }
+  
+  .hero-header h1, h3 {
+    color: white;
+    line-height: 1;
+  }
+  
+  .hero-header h1 {
+    text-transform: uppercase;
+    font-size: 3em;
+    margin-bottom: 0;
+    }
+  
+  .hero-header h3 {
+    margin-bottom: 40px;
+    font-size: 1.5em;
+    font-weight: normal;
+  }
+
+@media (max-width: 779px) {
+    .header-element {
+        width: 80%;
+    }
+}
