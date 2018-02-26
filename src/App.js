@@ -1,10 +1,17 @@
 import React, { Component } from 'react';
+import './App.css';
+
 import MainNav from './components/MainNav'
 import Header from './components/Header'
 import Intro from './components/Intro'
-import HeaderImg from './assets/header-img.png'
-// import headerImg from './assets/header-bg.jpg';
-import './App.css';
+import ParallaxRender from './components/ParallaxRender'
+import StageOne from './components/StageOne'
+import SpeakToday from './components/SpeakToday'
+import ImageGallery from './components/ImageGallery'
+import NotReady from './components/NotReady'
+import ContactDets from './components/ContactDets'
+import ContactForm from './components/ContactForm'
+import Footer from './components/Footer'
 
 class App extends Component {
   render() {
@@ -12,7 +19,15 @@ class App extends Component {
       <div className="App">
       <MainNav />   
       <Header />                                                   
-      <Intro /> 
+      <Intro />
+      <ParallaxRender />
+      <StageOne />
+      <SpeakToday />
+      <ImageGallery />
+      <NotReady />
+      <ContactDets />
+      <ContactForm />
+      <Footer />
     </div>
     );
   }
