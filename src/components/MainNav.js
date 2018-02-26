@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { Navbar, Nav, NavItem, NavDropdown, MenuItem } from 'react-bootstrap';
 import brandLogo from '../assets/augusta-rise.png'
-import '../App.css';
+import './css/MainNav.css';
 
 
 class MainNav extends Component {
