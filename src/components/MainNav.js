@@ -15,7 +15,7 @@ class MainNav extends Component {
             <li><a href="#">Sections & Covenants</a></li>
             <li><a href="#">Contact</a></li>
           </ul>
-        </nav>
+        </nav>  
       );
     }
   }
