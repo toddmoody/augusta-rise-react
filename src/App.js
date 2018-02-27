@@ -17,8 +17,7 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-      <MainNav />
-      <Header />                                                   
+      <Header />                                         
       <Intro />
       <ParallaxRender />
       <StageOne />
