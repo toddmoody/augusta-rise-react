@@ -1,21 +1,27 @@
-/* bootstrap navigation styles */
+.main-nav li {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
 
-.navbar {
-    margin-bottom: 0 !important;
+@media (min-width: 769px) {
+	.nav-flex-wrapper,
+	.main-nav {
+		display: flex;
+	}
+	.nav-flex-wrapper {
+		flex-direction: column;
+		align-items: center;
+	}
+}
+
+@media (min-width: 1025px) {
+	.nav-flex-wrapper {
+		flex-direction: row;
+		justify-content: space-between;
   }
   
-  .navbar-brand {
-    float: left;
-    height: 70px !important;
-    padding: 5px 15px !important;
-    font-size: 18px;
-    line-height: 20px;
+  .main-nav {
+    justify-content: flex-end !important;
   }
-  
-  .navbar-right {
-    padding-top: 10px;
-  }
-  
-  .navbar-toggle {
-    margin-top: 18px !important;
-  }
+}
