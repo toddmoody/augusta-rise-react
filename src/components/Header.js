@@ -21,6 +21,7 @@ class Header extends Component {
         </nav> 
         <div className="header-element">
           <img src={HeaderImg} alt="Sections Available Now" />
+          <button>Contact Us</button>
         </div>
         <div className="header-base-nav">
           <a href="#" data-scrollto="#" data-easing="easeInOutExpo" data-speed="1250" data-offset=""><FontAwesomeIcon className="header-icon" icon={FaChevronDown} size="lg"/></a>

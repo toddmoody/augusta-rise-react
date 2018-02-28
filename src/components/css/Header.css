@@ -39,10 +39,15 @@
 .header-element {
   z-index: 0;
   margin-top: -72px;
+  max-width: 450px;
 }
 
 .header-element img {
-  max-width: 80%;
+  max-width: 90%;
+}
+
+.header-element button {
+  margin-top: 32px;
 }
 
 .hero-header h1, h3 {
@@ -62,14 +67,19 @@
   font-weight: normal;
 }
 
-.header-icon {
-  content: "V";
+.header-base-nav a,
+.header-base-nav a:hover,
+.header-base-nav a:visited {
+  color: white;
+}
+
+.header-base-nav {
   position: absolute;
   display: inline-block;
   text-align: center;
   color: white;
   z-index: 1;
-  bottom: 0;
+  bottom: 22px;
 }
 
   @media (min-width: 769px) {
@@ -78,7 +88,7 @@
       display: flex;
     }
     .main-nav {
-      flex-direction: column;
+      flex-direction: row wrap;
       align-items: center;
     }
     .header-element img {
