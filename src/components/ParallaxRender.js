@@ -1,10 +1,12 @@
 import React, { Component } from 'react';
+import Render from '../assets/render.jpg'
+import HeaderImg from '../assets/header-img.png';
+import './css/ParallaxRender.css';
 
 class ParallaxRender extends Component {
     render() {
       return (
-        <div className="bg-alt">
-          <p>This will be the full width parallax render image of development</p>
+        <div className="parallax">
         </div>
       );
     }
