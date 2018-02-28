@@ -29,7 +29,12 @@
 }
 
 .nav-ul li a {
-  color: white;
+  color: #EEE;
+  text-shadow: 1px 1px 1px rgba(0,0,0,.1);
+}
+
+.nav-ul li a:hover {
+  color: #fff;
 }
   
 .hero-header {
@@ -48,6 +53,23 @@
 
 .header-element button {
   margin-top: 32px;
+  border-radius: 20px;
+  padding: 7px 22px;
+  color: white;
+  background-color: transparent;
+  border: 2px solid white;
+  text-transform: uppercase;
+  transition: .2s ease-in-out;
+}
+
+.header-element button:hover {
+  color: #444;
+  background-color: white;
+  border: 2px solid white;
+}
+
+.header-element button:focus {
+  outline:0;
 }
 
 .hero-header h1, h3 {
