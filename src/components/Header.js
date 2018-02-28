@@ -2,7 +2,9 @@ import React, { Component } from 'react';
 import HeaderImg from '../assets/header-img.png';
 import brandLogo from '../assets/augusta-rise-dark@2x.png'
 import './css/Header.css';
-import MainNav from './MainNav';
+
+import FontAwesomeIcon from '@fortawesome/react-fontawesome'
+import FaChevronDown from '@fortawesome/fontawesome-free-solid/faChevronDown'
 
 class Header extends Component {
   render() {
@@ -20,7 +22,9 @@ class Header extends Component {
         <div className="header-element">
           <img src={HeaderImg} alt="Sections Available Now" />
         </div>
-        <a href="#" data-scrollto="#" data-easing="easeInOutExpo" data-speed="1250" data-offset=""><i class="icon-angle-down infinite animated fadeInDown"></i></a>
+        <div className="header-base-nav">
+          <a href="#" data-scrollto="#" data-easing="easeInOutExpo" data-speed="1250" data-offset=""><FontAwesomeIcon className="header-icon" icon={FaChevronDown} size="lg"/></a>
+        </div>
       </section>    
     );
   }

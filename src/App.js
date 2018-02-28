@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import './App.css';
 
-import MainNav from './components/MainNav'
 import Header from './components/Header'
 import Intro from './components/Intro'
 import ParallaxRender from './components/ParallaxRender'
