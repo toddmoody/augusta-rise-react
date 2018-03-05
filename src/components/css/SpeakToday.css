@@ -1,0 +1,43 @@
+.container-speak {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100%;
+    color: white;
+    background-color: #282828;
+    padding: 6.5em 0em;
+}
+
+.speak-lead {
+    font-family: 'Roboto', sans-serif !important;
+    color: #EEE;
+    letter-spacing: 1px;
+    font-weight: 300 !important;
+    font-size: 25px !important;
+    line-height: 1.8em !important;
+    font-style: normal;
+    margin: 0 1.5em;
+}
+
+.speak-btn {
+    border-radius: 25px;
+    padding: 7px 22px;
+    margin-top: 0.3em;
+    color: #EEE;
+    background-color: transparent;
+    border: 2px solid#EEE;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    transition: .2s ease-in-out;
+}
+
+  
+  .speak-btn:hover {
+    color: #444;
+    background-color: #EEE;
+    border: 2px solid #EEE;
+  }
+  
+  .speak-btn:focus {
+    outline:0;
+  }

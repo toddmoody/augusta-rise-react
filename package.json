@@ -7,10 +7,16 @@
     "@fortawesome/fontawesome-free-solid": "^5.0.7",
     "@fortawesome/react-fontawesome": "0.0.17",
     "bootstrap": "^3.3.7",
+    "masonry-layout": "^4.2.1",
+    "prop-types": "^15.6.1",
     "react": "^16.2.0",
     "react-bootstrap": "^0.32.1",
     "react-dom": "^16.2.0",
-    "react-scripts": "1.1.1"
+    "react-grid-gallery": "^0.4.8",
+    "react-measure": "^3.0.0-rc.3",
+    "react-photo-gallery": "^6.0.22",
+    "react-scripts": "1.1.1",
+    "shuffle-array": "^1.0.1"
   },
   "scripts": {
     "start": "react-scripts start",

@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import { Row } from 'react-bootstrap';
 
 import './css/Intro.css';
 
@@ -14,5 +13,4 @@ class Intro extends Component {
       );
     }
   }
-  
-  export default Intro;
+    export default Intro;

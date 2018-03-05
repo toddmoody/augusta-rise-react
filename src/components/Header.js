@@ -10,9 +10,9 @@ class Header extends Component {
   render() {
     return (
       <section className="hero-header overlay">
-        <nav class="main-nav nav-wrap">
+        <nav className="main-nav nav-wrap">
           <img className="brand-logo" src={brandLogo} alt="Augusta Rise" />
-            <ul class="nav-ul">
+            <ul className="nav-ul">
                 <li><a href="#">Home</a></li>
                 <li><a href="#">Location</a></li>
                 <li><a href="#">Sections & Covenants</a></li>
@@ -21,7 +21,7 @@ class Header extends Component {
         </nav> 
         <div className="header-element">
           <img src={HeaderImg} alt="Sections Available Now" />
-          <a href="#"><button>Contact Us</button></a>
+          <a href="#contact-form" data-scrollto="#" data-easing="easeInOutExpo" data-speed="1250" data-offset=""><button>Contact Us</button></a>
         </div>
         <div className="header-base-nav">
           <a href="#" data-scrollto="#" data-easing="easeInOutExpo" data-speed="1250" data-offset=""><FontAwesomeIcon className="header-icon" icon={FaChevronDown} size="lg"/></a>

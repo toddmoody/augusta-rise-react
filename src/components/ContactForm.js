@@ -3,7 +3,7 @@ import React, { Component } from 'react';
 class ContactForm extends Component {
     render() {
       return (
-        <div className="bg-alt">
+        <div id="contact-form" className="bg-alt">
           <p>Contact form Section</p>
         </div>
       );

@@ -59,6 +59,7 @@
   background-color: transparent;
   border: 2px solid white;
   text-transform: uppercase;
+  letter-spacing: 2px;
   transition: .2s ease-in-out;
 }
 
