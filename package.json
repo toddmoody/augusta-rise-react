@@ -16,7 +16,8 @@
     "react-measure": "^3.0.0-rc.3",
     "react-photo-gallery": "^6.0.22",
     "react-scripts": "1.1.1",
-    "shuffle-array": "^1.0.1"
+    "shuffle-array": "^1.0.1",
+    "smoothscroll-polyfill": "^0.4.3"
   },
   "scripts": {
     "start": "react-scripts start",
