@@ -9,13 +9,14 @@
     "bootstrap": "^3.3.7",
     "masonry-layout": "^4.2.1",
     "prop-types": "^15.6.1",
-    "react": "^16.2.0",
+    "google-maps-react": "^1.1.0",
+    "react": "^15.6.1",
     "react-bootstrap": "^0.32.1",
-    "react-dom": "^16.2.0",
+    "react-dom": "^15.6.1",
     "react-grid-gallery": "^0.4.8",
     "react-measure": "^3.0.0-rc.3",
     "react-photo-gallery": "^6.0.22",
-    "react-scripts": "1.1.1",
+    "react-scripts": "1.0.13",
     "shuffle-array": "^1.0.1",
     "smoothscroll-polyfill": "^0.4.3"
   },
@@ -24,5 +25,8 @@
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
+  },
+  "devDependencies": {
+    "google-maps": "^3.2.1"
   }
 }
