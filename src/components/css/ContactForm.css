@@ -1,7 +1,66 @@
-.form-control {
-
+.form-container {
+    max-width: 1050px;
+    margin: 0 auto;
+    padding: 90px;
+   
 }
 
-.form-border {
+.form-row-one,
+.form-row-two,
+.form-row-three {
+    display: flex;
+    flex-flow: wrap;
+    flex-direction: row;
+    font-size: 21px;
+    color: #555;
+    font-family: 'Source Sans Pro', sans-serif !important;
+}
 
+.form-name {
+    flex: 1 0 45%;
+    /* padding: .8em .8em; */
+}
+
+.form-email {
+    flex: 1 0 45%;
+}
+
+.form-phone {
+    flex: 1 0 30%;
+}
+
+.form-subject {
+    flex: 1 0 60%;
+}
+
+.form-msg {
+    flex: 1 0 90%;
+    border-bottom: 2px solid rgb(238, 238, 238) !important;
+}
+
+.f-control {
+    padding: 8px 4px;
+    margin: .4em .6em;
+}
+
+input[type=text],
+input[type=email] {
+    outline: none;
+    border-top: transparent;
+    border-right: transparent;
+    border-left: transparent;
+}
+
+textarea {
+    border: none;
+    background-color: transparent;
+    resize: none;
+    outline: none;
+    border-top: transparent;
+    border-right: transparent;
+    border-left: transparent;
+    overflow: hidden;
+    word-wrap: break-word;
+    margin: 0;
+    border-bottom-style: inset;
 }
