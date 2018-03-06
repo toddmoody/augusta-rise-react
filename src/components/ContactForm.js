@@ -16,9 +16,9 @@ class ContactForm extends Component {
                 <input className="form-subject f-control" type="text" id="contact-subject" name="contact-subject" placeholder="Subject" required />
               </div>
               <div className="form-row-three">
-                <textarea className="form-msg f-control" id="contact-message" name="contact-message" rows="1" columns="80" placeholder="Your Message" />
+                <textarea className="form-msg f-control" id="contact-message" name="contact-message" rows="1" placeholder="Your Message" required />
               </div>
-              <button className="f-control" type="submit" id="contact-submit" name="contact-submit" value="submit">Send Message</button>
+              <button className="submit-btn" type="submit" id="contact-submit" name="contact-submit" value="submit">Send Message</button>
           </form>
         </div>
       );

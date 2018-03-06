@@ -12,6 +12,7 @@
     flex-flow: wrap;
     flex-direction: row;
     font-size: 21px;
+    font-weight: 300;
     color: #555;
     font-family: 'Source Sans Pro', sans-serif !important;
 }
@@ -35,7 +36,7 @@
 
 .form-msg {
     flex: 1 0 90%;
-    border-bottom: 2px solid rgb(238, 238, 238) !important;
+    
 }
 
 .f-control {
@@ -43,15 +44,42 @@
     margin: .4em .6em;
 }
 
-input[type=text],
-input[type=email] {
+/* handle border and placeholder styles */
+input {
     outline: none;
     border-top: transparent;
     border-right: transparent;
+    border-bottom: 1px solid rgb(238, 238, 238) !important;
     border-left: transparent;
+    transition: all .4s ease-in-out;
 }
 
+input::-webkit-input-placeholder {
+    color: rgb(146, 146, 146);
+  }
+  
+input::-moz-placeholder {
+    color: rgb(146, 146, 146);
+}
+
+input:-ms-input-placeholder {
+    color:rgb(146, 146, 146);
+}
+
+input:-moz-placeholder {
+    color: rgb(146, 146, 146);
+}
+
+input:focus {
+    border-bottom: 1px solid #444 !important;
+}
+
+/* input:invalid {
+    border-bottom: 1px solid red !important;
+} */
+
 textarea {
+    border-bottom: 1px solid rgb(238, 238, 238) !important;
     border: none;
     background-color: transparent;
     resize: none;
@@ -61,6 +89,54 @@ textarea {
     border-left: transparent;
     overflow: hidden;
     word-wrap: break-word;
-    margin: 0;
     border-bottom-style: inset;
+    transition: all .4s ease-in-out;
 }
+
+textarea:focus {
+    border-bottom: 1px solid #444 !important;
+}
+
+/* textarea:invalid {
+    border-bottom: 1px solid red !important;
+} */
+
+textarea::-webkit-input-placeholder {
+    color: rgb(146, 146, 146);
+  }
+  
+textarea::-moz-placeholder {
+    color: rgb(146, 146, 146);
+}
+
+textarea:-ms-input-placeholder {
+    color:rgb(146, 146, 146);
+}
+
+textarea:-moz-placeholder {
+    color: rgb(146, 146, 146);
+}
+
+.submit-btn {
+    margin-top: 3.2em !important;
+    border-radius: 25px;
+    padding: 7px 22px;
+    margin-top: 0.3em;
+    color: #444;
+    background-color: transparent;
+    border: 2px solid #444;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    transition: .2s ease-in-out;
+}
+
+  
+  .submit-btn:hover {
+    color: #EEE;
+    background-color: #444;
+    border: 2px solid #444;
+  }
+  
+  .submit-btn:focus {
+    outline:0;
+  }
