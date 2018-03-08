@@ -20,8 +20,8 @@ class App extends Component {
       <Intro />
       <ParallaxRender />
       <StageOne />
-      <SpeakToday />
       <ImageGallery />
+      <SpeakToday />
       <NotReady />
       <ContactDets />
       <ContactForm />
