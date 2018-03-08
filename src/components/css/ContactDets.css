@@ -1,12 +1,11 @@
 .dets-container {
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
-    /* align-items: flex-start;
-    justify-content: flex-start; */
+    flex-flow: wrap;
 }
 
 .dets-container-left {
+    min-width: 500px;
     flex: 1 0 65%;
     height: 100%;
    
@@ -15,6 +14,17 @@
 .dets-container-right {
     flex: 1 0 35%;
     padding: 60px;
+    height: 70vh;
     text-align: left;
     background-color: #EEE;
+}
+
+@media (max-width: 1149px) {
+    .dets-container-right h2 {
+        font-size: 1.3em !important;
+    }
+
+    .dets-container-right p {
+        font-size: 1.3em !important;
+    }
 }

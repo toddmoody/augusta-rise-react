@@ -17,17 +17,17 @@ class Header extends Component {
           <img className="brand-logo" src={brandLogo} alt="Augusta Rise" />
             <ul className="nav-ul">
                 <li><a href="#">Home</a></li>
-                <li><a href="#">Location</a></li>
-                <li><a href="#">Sections & Covenants</a></li>
-                <li><a href="#">Contact</a></li>
+                <li><a href="#intro">Location</a></li>
+                <li><a href="#sections">Sections & Covenants</a></li>
+                <li><a href="#contact">Contact</a></li>
             </ul>
         </nav> 
         <div className="header-element">
           <img src={HeaderImg} alt="Sections Available Now" />
-          <a href="#contact-form"><button>Contact Us</button></a>
+          <a href="#contact"><button>Contact Us</button></a>
         </div>
         <div className="header-base-nav">
-          <a href="#" data-scrollto="#" data-easing="easeInOutExpo" data-speed="1250" data-offset=""><FontAwesomeIcon className="header-icon" icon={FaChevronDown} size="lg"/></a>
+          <a href="#intro" data-scrollto="#" data-easing="easeInOutExpo" data-speed="1250" data-offset=""><FontAwesomeIcon className="header-icon" icon={FaChevronDown} size="lg"/></a>
         </div>
       </section>    
     );

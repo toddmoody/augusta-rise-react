@@ -13,9 +13,9 @@ class Footer extends Component {
               <h4>Site links</h4>
               <ul>
                 <li><a href="#">Top</a></li>
-                <li><a href="#">Location</a></li>
-                <li><a href="#">Sections</a></li>
-                <li><a href="#">Contact</a></li>
+                <li><a href="#intro">Location</a></li>
+                <li><a href="#sections">Sections</a></li>
+                <li><a href="#contact">Contact</a></li>
               </ul>
             </div>
             <div className="footer-col-2">

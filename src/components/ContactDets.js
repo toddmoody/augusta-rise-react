@@ -10,7 +10,7 @@ const apiKey = "AIzaSyBV50yNh1_mI48ZW_Yd4HNoQfZD_1cigqg";
 class ContactDets extends Component {
     render() {
       return (
-        <div className="dets-container">
+        <div id="contact" className="dets-container">
           <div id="map" className="dets-container-left">
               <MapContainer google={this.props.google} />
           </div>

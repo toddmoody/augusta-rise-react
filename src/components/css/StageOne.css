@@ -30,6 +30,18 @@
     text-decoration: none;
 }
 
+.design-link {
+    color: #f47322;
+    font-size: 21px;
+    display: inline-block;
+    font-style: normal;
+    padding: 0 0px;
+}
+
+.design-link:hover {
+    color: #fd853a;
+    text-decoration: none;
+}
 
 .stage-one-img img {
     max-width: 600px;
