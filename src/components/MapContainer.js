@@ -48,7 +48,7 @@ state = {
 
   render() {
     const style = { 
-      height: '70vh' //additional flexbox styles in component css file.
+      height: '83vh' //additional flexbox styles in component css file.
     }
 
     return ( 

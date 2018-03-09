@@ -10,11 +10,6 @@
   text-align: center;
 }
 
-/* MVP component dividers */
-.bg-alt {
-  background-color: blanchedalmond;
-}
-
 .hero-header {
   display: flex;  
   flex-flow: row wrap;

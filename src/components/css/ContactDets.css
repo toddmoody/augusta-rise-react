@@ -14,12 +14,12 @@
 .dets-container-right {
     flex: 1 0 35%;
     padding: 60px;
-    height: 70vh;
+    /* height: 83vh; */
     text-align: left;
     background-color: #EEE;
 }
 
-@media (max-width: 1149px) {
+/* @media (max-width: 1149px) {
     .dets-container-right h2 {
         font-size: 1.3em !important;
     }
@@ -27,4 +27,4 @@
     .dets-container-right p {
         font-size: 1.3em !important;
     }
-}
+} */

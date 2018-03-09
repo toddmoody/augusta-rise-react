@@ -7,8 +7,9 @@ class SpeakToday extends Component {
       return (
         <div className="container-speak">
           <h2 className="speak-lead">Speak to us today</h2>
-          <a href="#"><button className="speak-btn">Contact us</button></a>
+          <a href="#contact"><button className="speak-btn">Contact us</button></a>
         </div>
+   
       );
     }
   }
