@@ -20,6 +20,11 @@
     min-width: 150px;
 }
 
-.nav-link {
+.navbar-right {
+    padding-right: 1.2em;
+}
+
+.navbar-right li a {
+    font-family: 'Source Sans Pro', sans-serif !important;
     text-transform: uppercase;
 }

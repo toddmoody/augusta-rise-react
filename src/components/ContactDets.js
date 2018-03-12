@@ -18,7 +18,7 @@ class ContactDets extends Component {
             <h2>Get in touch</h2>
               <p className="lead">For more information, please complete the form below or call (021) 734 775. </p>
               <p className="lead">Or, visit our on-site sales office which is open:<br/>
-              Thursday: 12 - 4pm 	&#38; Sunday: 11 - 3pm<br/>
+              Friday: 12 - 4pm 	&#38; Sunday: 11 - 3pm<br/>
               </p>
             <address>  
               <h2>Location</h2>
