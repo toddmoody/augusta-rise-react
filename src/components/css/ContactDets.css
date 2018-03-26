@@ -14,17 +14,8 @@
 .dets-container-right {
     flex: 1 0 35%;
     padding: 60px;
+    min-width: 400px;
     /* height: 83vh; */
     text-align: left;
     background-color: #EEE;
 }
-
-/* @media (max-width: 1149px) {
-    .dets-container-right h2 {
-        font-size: 1.3em !important;
-    }
-
-    .dets-container-right p {
-        font-size: 1.3em !important;
-    }
-} */

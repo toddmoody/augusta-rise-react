@@ -35,7 +35,7 @@ class Header extends Component {
           <a href="#contact"><button>Contact Us</button></a>
         </div>
         <div className="header-base-nav">
-          <a href="#intro" data-scrollto="#" data-easing="easeInOutExpo" data-speed="1250" data-offset=""><FontAwesomeIcon className="header-icon" icon={FaChevronDown} size="lg"/></a>
+          <a href="#intro" data-scrollto="#" data-easing="easeInOutExpo" data-speed="1250" data-offset=""><FontAwesomeIcon className="bounce" icon={FaChevronDown} size="lg"/></a>
         </div>
       </section>   
       </div> 
