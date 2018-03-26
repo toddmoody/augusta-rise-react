@@ -1,14 +1,7 @@
 import React from 'react';
-import { render } from 'react-dom';
-import Gallery from 'react-photo-gallery';
-import Measure from 'react-measure';
 
 import './css/ImageGallery.css';
 
-import Harbour from '../assets/gallery/harbour.jpg'
-import RenderWide from '../assets/gallery/render-wide.jpg'
-import RenderWideVar from '../assets/gallery/Lot-42-WIDE.jpg'
-import EarthWksBanner from '../assets/gallery/earthw-banner.jpg'
 import LotOne from '../assets/gallery/lot-1-gall.jpg'
 import LotThree from '../assets/gallery/lot-3-gall.jpg'
 import LotFourty from '../assets/gallery/lot-40-gall.jpg'

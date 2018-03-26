@@ -12,7 +12,7 @@ class Footer extends Component {
             <div className="footer-col-1">
               <h4>Site links</h4>
               <ul>
-                <li><a href="#">Top</a></li>
+                <li><a href="#top">Top</a></li>
                 <li><a href="#intro">Location</a></li>
                 <li><a href="#sections">Sections</a></li>
                 <li><a href="#contact">Contact</a></li>
@@ -28,7 +28,7 @@ class Footer extends Component {
             </div>
           </div>
           <footer>
-            <img className="footer-logo" src={FooterLogo} />
+            <img className="footer-logo" src={FooterLogo} alt="Augusta Rise" />
             <p className="footer-sm">Copyright 2018 | Website by <a href="http://moodsdigital.co.nz" target="blank">Moods Digital</a></p>
           </footer>
         </div> 

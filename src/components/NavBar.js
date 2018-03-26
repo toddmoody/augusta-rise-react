@@ -1,8 +1,7 @@
 import React, { Component } from 'react';
-import HeaderImg from '../assets/header-img.png';
 import brandLogo from '../assets/augusta-rise.png'
 
-import { Nav, Navbar, NavItem, NavDropdown, MenuItem } from 'react-bootstrap' 
+import { Nav, Navbar, NavItem } from 'react-bootstrap' 
 
 import './css/NavBar.css';
 
@@ -12,7 +11,7 @@ class NavBar extends Component {
     <Navbar collapseOnSelect fixedTop fluid>
         <Navbar.Header>
           <Navbar.Brand>
-            <img className="header-logo" src={brandLogo} />
+            <img className="header-logo" src={brandLogo} alt="Augusta Rise" />
           </Navbar.Brand>
           <Navbar.Toggle />
         </Navbar.Header>

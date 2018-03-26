@@ -5,8 +5,6 @@ import MapContainer from './MapContainer'
 
 import './css/ContactDets.css';
 
-const apiKey = "AIzaSyBV50yNh1_mI48ZW_Yd4HNoQfZD_1cigqg";
-
 class ContactDets extends Component {
     render() {
       return (
@@ -17,8 +15,8 @@ class ContactDets extends Component {
           <div className="dets-container-right">
             <h2>Get in touch</h2>
               <p className="lead">For more information, please complete the form below or call (021) 734 775. </p>
-              <p className="lead">Or, visit our on-site sales office which is open:<br/>
-              Friday: 12 - 4pm 	&#38; Sunday: 11 - 3pm<br/>
+              <p className="lead">Or, visit our on-site sales office which is open<br />
+              <strong>Friday 12:00 - 4:00pm</strong>
               </p>
             <address>  
               <h2>Location</h2>

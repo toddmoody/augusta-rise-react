@@ -76,6 +76,12 @@ body { margin: 0; background: #333; } */
     text-shadow: 1px 1px 1px rgba(0,0,0,.2);
   }
 
+  .middle button:visited,
+  .middle button:focus {
+      text-decoration: none;
+      outline: none;
+  }
+
   .image-container:hover .image {
     opacity: 0.1;
   }
