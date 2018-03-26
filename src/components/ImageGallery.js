@@ -14,42 +14,77 @@ import LotThree from '../assets/gallery/lot-3-gall.jpg'
 import LotFourty from '../assets/gallery/lot-40-gall.jpg'
 import LotFourtyTwo from '../assets/gallery/lot-42-gall.jpg'
 
-const photos = [
-  { src: LotThree, width: 6, height: 3 },
-  { src: LotOne, width: 6, height: 3 },
-  { src: LotFourty, width: 6, height: 3 },
-  { src: LotFourtyTwo, width: 6, height: 3 }
-];
-
-// to best see the results, click the popout button in the preview browser
-// and resize your browser
+const listingDets = [
+  {
+    listing: "Lot 1",
+    price: "$669000",
+    status: "For sale",
+    button: "More Details",
+    url: "https://barretthomes.co.nz/property/lot-1-augusta-rise-omokoroa/"
+  },
+  {
+    listing: "Lot 3",
+    price: "$669000",
+    status: "Under Offer",
+    button: "More Details",
+    url: "https://barretthomes.co.nz/property/lot-3-augusta-rise-omokoroa/"
+  },
+  {
+    listing: "Lot 40",
+    price: "$669000",
+    status: "Under Offer",
+    button: "More Details",
+    url: "https://barretthomes.co.nz/property/lot-40-augusta-rise-omokoroa/"
+  },
+  {
+    listing: "Lot 42",
+    price: "$669000",
+    status: "Under Offer",
+    button: "More Details",
+    url: "https://barretthomes.co.nz/property/lot-42-augusta-rise-omokoroa/"
+  }
+]
 
 class ImageGallery extends React.Component {
-  constructor() {
-    super();
-    this.state = { width: -1 };
-  }
+
   render() {
-    const width = this.state.width;
+   
     return (
-        <Measure bounds onResize={(contentRect) => this.setState({ width: contentRect.bounds.width })}>
-          {
-          ({measureRef}) => {
-            if (width < 1 ){
-              return <div ref={measureRef}></div>;
-            }
-            let columns = 1;
-            if (width >= 769){
-              columns = 2;
-            }
-            if (width >= 1824){
-              columns = 4;
-            }
-            return <div ref={measureRef}><Gallery photos={photos} columns={columns} /></div>
-          }
-        }
-        </Measure>
-    )
+        <section className="flex-container">
+         <div className="image-container">
+          <img className="image" src={LotOne} alt="Lot 1 - Augusta Rise" />
+            <div className="tag">{listingDets[0].status}</div>
+          <div className="middle">
+            <h3>{listingDets[0].listing}</h3>
+            <a href={listingDets[0].url} target="blank"><button>{listingDets[0].button}</button></a>
+          </div>
+        </div>
+        <div className="image-container">
+          <img className="image" src={LotThree} alt="Lot 1 - Augusta Rise" />
+            <div className="tag">{listingDets[1].status}</div>
+          <div className="middle">
+            <h3>{listingDets[1].listing}</h3>
+            <a href={listingDets[1].url} target="blank"><button>{listingDets[1].button}</button></a>
+          </div>
+        </div>
+        <div className="image-container">
+          <img className="image" src={LotFourty} alt="Lot 1 - Augusta Rise" />
+            <div className="tag">{listingDets[2].status}</div>
+          <div className="middle">
+            <h3>{listingDets[2].listing}</h3>
+            <a href={listingDets[2].url} target="blank"><button>{listingDets[2].button}</button></a>
+          </div>
+        </div>
+        <div className="image-container">
+          <img className="image" src={LotFourtyTwo} alt="Lot 1 - Augusta Rise" />
+            <div className="tag">{listingDets[3].status}</div>
+          <div className="middle">
+            <h3>{listingDets[3].listing}</h3>
+            <a href={listingDets[3].url} target="blank"><button>{listingDets[3].button}</button></a>
+          </div>
+        </div>
+      </section>
+    );
   }
 }
 
