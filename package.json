@@ -2,6 +2,7 @@
   "name": "augusta-rise-react",
   "version": "0.1.0",
   "private": true,
+  "homepage" : "http://toddmoody.github.io/augusta-rise-react/",
   "dependencies": {
     "@fortawesome/fontawesome": "^1.1.4",
     "@fortawesome/fontawesome-free-solid": "^5.0.7",
@@ -13,9 +14,6 @@
     "react": "^15.6.1",
     "react-bootstrap": "^0.32.1",
     "react-dom": "^15.6.1",
-    "react-grid-gallery": "^0.4.8",
-    "react-measure": "^2.0.2",
-    "react-photo-gallery": "^6.0.22",
     "react-scripts": "1.0.13"
   },
   "scripts": {

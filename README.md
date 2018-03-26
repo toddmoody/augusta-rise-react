@@ -1,9 +1,50 @@
+## App Name 
+
+Augusta Rise / SPA (React rebuild)
+
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
+
+###### Synopsis / Summary
+
+Existing client Barrett Homes needed a new single page website in order to promote a housing development located in Omokoroa. It was important that this website had an autonomous look & feel in relation to the main Barrett Homes brand as other construction companies would be listing houses in the development. A lightweight application was required that could be: 
+
+- easily repurposed / redeployed for similar housing developments in future.
+- enhanced once additional housing developers come onboard with the ability to easily add house listings and details such as price, status, links etc.
+- Potentialy utilise state management capabilities of React to provide provide interactive UI elements in relation to listings i.e. delete listings, save to favourites and save to local storage.
+- highly optimised for Google Search.
+
+This website was initially developed and deployed using vanilla JS. The objective of this project was to rebuild the application in React.
+
+###### Staging URL (using react production build flies)
+
+https://toddmoody.github.io/augusta-rise-react/
+
+
+###### Other UI/UX requirements
+
+- Smooth UI/UX incl. flow from content to call to action. 
+- Image gallery featuring listings incl. animation to enhance visual impact and information displayed on mouse-over. 
+- Contact form integration with email notification service (Form Spree)
+
+###### Technology 
+
+- HTML 
+- CSS / Flexbox (iamge gallery and responsive layout)
+- React-Bootstrap (Navigation bar)
+- React.js  
+- Webpack for js bundling and minification
+
+###### Task list
+
+- [ ] The addition of a blog  would be useful, in particular for SEO but is dependent on info from the client-side. 
+- [ ] Update integration of form with another service that includes a database and performance metrics. 
+- [ ] Additional section to display links to construction companies and information on their specific listings. Potentially creating a JSON package for this data incl. house specs, imagery etc.
+
+
+## Further info re create-react-app
 
 Below you will find some information on how to perform common tasks.<br>
 You can find the most recent version of this guide [here](https://github.com/facebookincubator/create-react-app/blob/master/packages/react-scripts/template/README.md).
-
-## Table of Contents
 
 - [Updating to New Releases](#updating-to-new-releases)
 - [Sending Feedback](#sending-feedback)
