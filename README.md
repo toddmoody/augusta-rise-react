@@ -17,7 +17,7 @@ This website was initially developed and deployed using vanilla JS. The objectiv
 
 ###### Staging URL (using react production build flies)
 
-https://toddmoody.github.io/augusta-rise-react/
+http://augusta-react.moodsdigital.biz/
 
 
 ###### Other UI/UX requirements
