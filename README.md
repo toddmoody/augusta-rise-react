@@ -19,7 +19,6 @@ This website was initially developed and deployed using vanilla JS. The objectiv
 
 http://augusta-react.moodsdigital.biz/
 
-
 ###### Other UI/UX requirements
 
 - Smooth UI/UX incl. flow from content to call to action. 

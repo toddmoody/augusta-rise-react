@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 
 import SectionMap from '../assets/section-map.jpg'
 import DesignGuide from '../assets/design-guidelines.pdf'
-import SectionGuide from '../assets/section-stage-one.pdf'
+import SectionGuide from '../assets/section-stage-one-up.pdf'
 
 import './css/StageOne.css';
 
