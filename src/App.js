@@ -15,45 +15,45 @@ import Footer from './components/Footer'
 const listingDets = [
   {
     listing: "Lot 1",
-    price: "$669000",
+    price: "$545000",
     status: "For sale",
     button: "More Details",
     url: "https://barretthomes.co.nz/property/lot-1-augusta-rise-omokoroa/"
   },
   {
-    listing: "Lot 10",
-    price: "$669000",
-    status: "For sale",
-    button: "More Details",
-    url: "https://barretthomes.co.nz/property/lot-10-augusta-rise-omokoroa/"
-  },
-  {
-    listing: "Lot 39",
-    price: "$669000",
-    status: "For sale",
-    button: "More Details",
-    url: "https://barretthomes.co.nz/property/lot-39-augusta-rise-omokoroa/"
-  },
-  {
     listing: "Lot 3",
-    price: "$669000",
-    status: "Under Offer",
+    price: "$615000",
+    status: "For sale",
     button: "More Details",
     url: "https://barretthomes.co.nz/property/lot-3-augusta-rise-omokoroa/"
   },
   {
-    listing: "Lot 40",
-    price: "$669000",
-    status: "Under Offer",
+    listing: "Lot 31",
+    price: "$690000",
+    status: "For sale",
     button: "More Details",
-    url: "https://barretthomes.co.nz/property/lot-40-augusta-rise-omokoroa/"
+    url: "https://barretthomes.co.nz/property/lot-31-augusta-rise-omokoroa/"
   },
   {
-    listing: "Lot 42",
-    price: "$669000",
-    status: "Under Offer",
+    listing: "Lot 32",
+    price: "$660000",
+    status: "For Sale",
     button: "More Details",
-    url: "https://barretthomes.co.nz/property/lot-42-augusta-rise-omokoroa/"
+    url: "https://barretthomes.co.nz/property/lot-32-augusta-rise-omokoroa/"
+  },
+  {
+    listing: "Lot 36",
+    price: "$680000",
+    status: "For Sale",
+    button: "More Details",
+    url: "https://barretthomes.co.nz/property/lot-36-augusta-rise-omokoroa/"
+  },
+  {
+    listing: "Lot 39",
+    price: "$725000",
+    status: "For Sale",
+    button: "More Details",
+    url: "https://barretthomes.co.nz/property/lot-39-augusta-rise-omokoroa/"
   }
 ]
 
