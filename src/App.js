@@ -21,11 +21,11 @@ const listingDets = [
     url: "https://barretthomes.co.nz/property/lot-1-augusta-rise-omokoroa/"
   },
   {
-    listing: "Lot 3",
-    price: "$615000",
+    listing: "Lot 2",
+    price: "$730000",
     status: "For sale",
     button: "More Details",
-    url: "https://barretthomes.co.nz/property/lot-3-augusta-rise-omokoroa/"
+    url: "https://barretthomes.co.nz/property/lot-2-augusta-rise-omokoroa/"
   },
   {
     listing: "Lot 31",

@@ -24,7 +24,7 @@ class Footer extends Component {
             </div>
             <div className="footer-col-3">
               <h4>Contact</h4>
-                <p>(021) 734 775</p>
+                <p>(027) 230 5232</p>
             </div>
           </div>
           <footer>

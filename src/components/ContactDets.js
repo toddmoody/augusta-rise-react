@@ -14,17 +14,17 @@ class ContactDets extends Component {
           </div>
           <div className="dets-container-right">
             <h2>Get in touch</h2>
-              <p className="lead">For more information, please complete the form below or call (021) 734 775. </p>
-              <p className="lead">Or, visit our on-site sales office which is open <strong>Friday 12:00 - 4:00pm</strong>
+              <p className="lead">For more information, please complete the form below or call (027) 230 5232. </p>
+              <p className="lead">Or, visit our on-site Showhome which is open Thursday - Sunday<strong> 12:00pm until 4:00pm.</strong>
               </p>
             <address>  
               <h2>Location</h2>
                 <p className="lead">
-                27 Kaylene Place<br/>
+                27 Kayelene Place<br/>
                 Omokoroa<br/>
                 Western Bay of Plenty, NZ<br/>
                 </p>
-                <p className="lead"><abbr title="Phone Number"></abbr><strong>Phone:</strong> (021) 734 775</p>
+                <p className="lead"><abbr title="Phone Number"></abbr><strong>Phone:</strong> (027) 230 5232.</p>
             </address>
           </div>
         </div>

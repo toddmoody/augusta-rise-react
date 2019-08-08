@@ -6,7 +6,7 @@ class ContactForm extends Component {
     render() {
       return (
         <div className="form-container">
-            <form action="https://formspree.io/todd@moodsdigital.co.nz" method="POST">
+            <form action="https://formspree.io/kaylah@barretthomes.co.nz" method="POST">
               <div className="form-row-one">
                 <input className="form-name f-control" type="text" id="contact-name" name="contact-name" placeholder="Name" required />
                 <input className="form-email f-control" type="email" id="contact-email" name="contact-email" placeholder="Email Address" required />

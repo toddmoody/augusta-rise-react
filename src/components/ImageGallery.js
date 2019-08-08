@@ -3,7 +3,7 @@ import React from 'react';
 import './css/ImageGallery.css';
 
 import LotOne from '../assets/gallery/lot-1-gall-rf.jpg'
-import LotThree from '../assets/gallery/lot-3-gall-rf.jpg'
+import LotTwo from '../assets/gallery/lot-2-gall-rf.jpg'
 import LotThirtyOne from '../assets/gallery/lot-31-gall-rf.jpg' 
 import LotThirtyTwo from '../assets/gallery/lot-32-gall-rf.jpg'
 import LotThirtySix from '../assets/gallery/lot-36-gall-rf.jpg'
@@ -24,7 +24,7 @@ class ImageGallery extends React.Component {
         </div>
       </div>
       <div className="image-container">
-        <img className="image" src={LotThree} alt="Lot 3 - Augusta Rise" />
+        <img className="image" src={LotTwo} alt="Lot 2 - Augusta Rise" />
         <div className="tag">{this.props.data[1].status}</div>
       <div className="middle">
         <h3>{this.props.data[1].listing}</h3>
